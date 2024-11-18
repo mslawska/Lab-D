@@ -1,0 +1,45 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.box{
+    width: 500px;
+    height: 200px;
+    background-color:#6aadb9;
+    
+    border: 1px solid #6aadb9;
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+.container{
+    position: relative;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    opacity: 0.6;
+    background-color: #cfe3e6e7;
+  
+}
+button{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+  vertical-align: middle; /* Ustawienie w poziomie */
+  margin: 0; /* Usunięcie marginesów */
+  padding: 5px;
+  border-radius: none;
+  background-color: #cfe3e6e7;
+  opacity: 0.6;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
