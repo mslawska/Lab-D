@@ -1,45 +1,121 @@
-body{
-    
+body {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb); 
     background-repeat: no-repeat;
-    background-size: 100%;
-    
-}
-.box{
-    width: 500px;
-    height: 200px;
-    background-color:#6aadb9;
-    
-    border: 1px solid #6aadb9;
-    border-radius: 30px;
-    text-align: center;
-    padding: 30px 0;
-    
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333; 
 }
 
-.container{
-    position: relative;
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
 }
-input{
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-    opacity: 0.6;
-    background-color: #cfe3e6e7;
-  
+
+.box {
+    width: 500px;
+    height: auto;
+    background: #ffffff; 
+    border: 2px solid #6aadb9; 
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
 }
-button{
-    width: 100px;
-    height: 30px;
-    display: inline-block;
-  vertical-align: middle; /* Ustawienie w poziomie */
-  margin: 0; /* Usunięcie marginesów */
-  padding: 5px;
-  border-radius: none;
-  background-color: #cfe3e6e7;
-  opacity: 0.6;
-}
-.container{
+
+.input-container {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    align-items: center;
+    gap: 15px; 
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #cfe3e6;
+    padding: 0 15px;
+    font-size: 16px;
+    background-color: #e8f0fe; 
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+input:focus {
+    outline: none;
+    border-color: #6aadb9; 
+    background-color: #f9fbff;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #6aadb9; 
+    color: white; 
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover {
+    background-color: #5c9ba6; /* Ciemniejszy kolor po najechaniu */
+   
+}
+
+
+#weather {
+    width: 500px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.weatherCard {
+    display: block;
+    width: 450px;
+    height: auto;
+    padding: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 15px;
+    position: relative;
+    margin: 15px auto;
+    text-align: left;
+    background: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.weatherDate {
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: #6aadb9; 
+}
+
+.weatherIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.weatherTemp {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333; 
+}
+
+.weatherTemp_Feels {
+    font-size: 16px;
+    color: #666; 
+}
+
+.weatherDescription {
+    font-size: 14px;
+    color: #555; 
+    font-style: italic;
 }
